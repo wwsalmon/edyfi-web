@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: #fffbf5;
+}
+
+.container {
+    font-family: "Inter";
+    max-width: 700px;
+    margin: 32px auto;
+    padding: 0 24px;
+    line-height: 1.5;
+    color: #848380;
+}
+
+.hero {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.hero b {
+    color: #64473a;
+    font-weight: 500;
+}
+
+.hero code {
+    background-color: #eaeae8;
+    font-size: 24px;
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: "SF Mono", "Consolas", monospace;
+}
+
+.locs {
+    display: flex;
+    margin: 32px -8px;
+}
+
+.locs > div {
+    width: 50%;
+    margin: 0 8px;
+}
+
+a.moreinfo, a.cta {
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+a.cta {
+    background-color: #64473a;
+    border-radius: 24px;
+    padding: 0 24px;
+    margin-top: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.moreinfo {
+    color: #64473a;
+    font-weight: 500;
+}
