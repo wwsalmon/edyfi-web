@@ -31,14 +31,16 @@ body {
     font-family: "SF Mono", "Consolas", monospace;
 }
 
-.locs {
-    display: flex;
-    margin: 32px -8px;
-}
+@media (min-width: 800px) {
+    .locs {
+        display: flex;
+        margin: 32px -8px;
+    }
 
-.locs > div {
-    width: 50%;
-    margin: 0 8px;
+    .locs > div {
+        width: 50%;
+        margin: 0 8px;
+    }
 }
 
 a.moreinfo, a.cta {
@@ -61,4 +63,62 @@ a.cta {
 a.moreinfo {
     color: #64473a;
     font-weight: 500;
+}
+
+a.organizer {
+    display: flex;
+    align-items: center;
+    color: unset;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.1s ease;
+    margin-bottom: 24px;
+}
+
+a.organizer:hover {
+    opacity: 1.0;
+}
+
+.organizer h4, .organizer p, .location h4, .location p {
+    margin: 0;
+}
+
+.organizer p, .location p {
+    font-family: "SF Mono", "Consolas", monospace;
+    color: #a69e92;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.organizer img {
+    width: 48px;
+    height: 48px;
+    border-radius: 32px;
+    margin-right: 1rem;
+}
+
+a.location {
+    color: unset;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.2s ease;
+}
+
+a.location:hover {
+    opacity: 1.0;
+}
+
+.location img {
+    width: 80%;
+    display: block;
+    margin: 8px 0 32px 0;
+}
+
+h3 {
+    color: #64473a;
+}
+
+.locs hr {
+    width: 80%;
+    margin: 48px 0;
 }
