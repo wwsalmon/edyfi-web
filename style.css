@@ -163,3 +163,16 @@ a.homelink {
 a.homelink:hover {
     opacity: 1.0;
 }
+
+.logos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 32px;
+    row-gap: 32px;
+    align-items: center;
+    justify-items: center;
+}
+
+.logos-grid img {
+    width: 80%;
+}
