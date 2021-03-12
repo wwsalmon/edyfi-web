@@ -52,10 +52,10 @@ a {
     .locs > div:nth-of-type(2) {
         width: 40%;
     }
+}
 
-    .locs > div > img {
-        width: 100%;
-    }
+.locs > div > img {
+    width: 100%;
 }
 
 a.moreinfo, a.cta {
