@@ -171,6 +171,7 @@ a.homelink:hover {
     row-gap: 32px;
     align-items: center;
     justify-items: center;
+    margin: 32px 0 48px 0;
 }
 
 .logos-grid img {
