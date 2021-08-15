@@ -29,6 +29,10 @@ img::before {
 }
 */
 
+#top-thick {
+    height:10vh;
+}
+
 .container {
     font-family: "Inter";
     max-width: 350px;
@@ -61,6 +65,10 @@ img::before {
     .locs {
         display: flex;
         margin: 32px -24px;
+    }
+
+    #top-thick {
+        height:20vh;
     }
 
     .locs > div {
