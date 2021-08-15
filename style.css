@@ -1,6 +1,17 @@
+@font-face { 
+font-family: 'STIX';
+src: url('font/STIXTwoMath-Regular.tff') format('tff');
+}
+/* in separate css .elements or even the whole body, edit your font properties */ 
+
+
+
 body {
     margin: 0;
     background-color: #fffbf5;
+    font-family: STIX;
+    font-weight: normal;
+    font-style: normal;
 }
 
 a {
@@ -9,7 +20,7 @@ a {
 
 .container {
     font-family: "Inter";
-    max-width: 700px;
+    max-width: 350px;
     margin: 32px auto;
     padding: 0 24px;
     line-height: 1.5;
@@ -18,7 +29,7 @@ a {
 
 .hero {
     font-weight: 500;
-    font-size: 28px;
+    font-family:"STIX";
 }
 
 .hero b {
