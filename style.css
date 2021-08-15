@@ -5,7 +5,6 @@ src: url('font/STIXTwoMath-Regular.tff') format('tff');
 /* in separate css .elements or even the whole body, edit your font properties */ 
 
 
-
 body {
     margin: 0;
     background-color: #fffbf5;
